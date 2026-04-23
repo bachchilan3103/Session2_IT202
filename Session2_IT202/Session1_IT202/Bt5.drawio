@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Digital Library ERD">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- USERS -->
+        <mxCell id="users" value="USERS
+__UserID__ (PK)
+FullName
+Email
+Role
+Status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="180" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- RESOURCES -->
+        <mxCell id="resources" value="RESOURCES
+__ResourceID__ (PK)
+Title
+Type
+Author
+PublishYear" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="200" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- REVIEWS -->
+        <mxCell id="reviews" value="REVIEWS
+__ReviewID__ (PK)
+UserID (FK, nullable)
+ResourceID (FK)
+Rating
+Comment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="220" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- WALLETS -->
+        <mxCell id="wallets" value="WALLETS
+__WalletID__ (PK)
+UserID (FK)
+Balance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="700" y="180" width="180" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- TRANSACTIONS -->
+        <mxCell id="transactions" value="TRANSACTIONS
+__TransactionID__ (PK)
+WalletID (FK)
+Amount
+Type
+Date" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="950" y="180" width="200" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Relationships -->
+        <mxCell id="r1" style="endArrow=none;" edge="1" parent="1" source="users" target="reviews">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="r2" style="endArrow=none;" edge="1" parent="1" source="reviews" target="resources">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="r3" style="endArrow=none;" edge="1" parent="1" source="users" target="wallets">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="r4" style="endArrow=none;" edge="1" parent="1" source="wallets" target="transactions">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

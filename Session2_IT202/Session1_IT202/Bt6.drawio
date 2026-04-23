@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Sales ERD">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- PRODUCT -->
+        <mxCell id="product" value="PRODUCT
+__ProductID__ (PK)
+ProductName
+Price
+Color" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="100" y="200" width="200" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- CUSTOMER -->
+        <mxCell id="customer" value="CUSTOMER
+__CustomerID__ (PK)
+FullName
+Address" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="200" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- ORDER -->
+        <mxCell id="order" value="ORDER
+__OrderID__ (PK)
+OrderDate
+TotalAmount" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="250" y="400" width="200" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Relationships -->
+        <mxCell id="r1" style="endArrow=none;" edge="1" parent="1" source="customer" target="order">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="r2" style="endArrow=none;" edge="1" parent="1" source="order" target="product">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
