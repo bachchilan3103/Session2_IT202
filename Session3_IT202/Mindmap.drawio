@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="tOdxFWX4sKk4C4mmdErY">
+    <mxGraphModel dx="2140" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="stPfCAmUMNRtccNCXlt5-16" edge="1" parent="1" source="stPfCAmUMNRtccNCXlt5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="stPfCAmUMNRtccNCXlt5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-17" edge="1" parent="1" source="stPfCAmUMNRtccNCXlt5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="stPfCAmUMNRtccNCXlt5-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-26" edge="1" parent="1" source="stPfCAmUMNRtccNCXlt5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="stPfCAmUMNRtccNCXlt5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SESSION 03" vertex="1">
+          <mxGeometry height="60" width="120" x="340" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-19" edge="1" parent="1" source="stPfCAmUMNRtccNCXlt5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="stPfCAmUMNRtccNCXlt5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="THÊM BẢN GHI" vertex="1">
+          <mxGeometry height="60" width="120" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-22" edge="1" parent="1" source="stPfCAmUMNRtccNCXlt5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="stPfCAmUMNRtccNCXlt5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;b style=&quot;&quot;&gt;INSERT-TO&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;b style=&quot;&quot;&gt;CỔ MÁY NHẬP LIỆU&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-20" edge="1" parent="1" source="stPfCAmUMNRtccNCXlt5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="stPfCAmUMNRtccNCXlt5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CẬP NHẬT BẢN GHI" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-23" edge="1" parent="1" source="stPfCAmUMNRtccNCXlt5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="stPfCAmUMNRtccNCXlt5-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;b&gt;CÂU LỆNH UPDATE&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-21" edge="1" parent="1" source="stPfCAmUMNRtccNCXlt5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="stPfCAmUMNRtccNCXlt5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="XÓA BẢN GHI" vertex="1">
+          <mxGeometry height="60" width="120" x="640" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-24" edge="1" parent="1" source="stPfCAmUMNRtccNCXlt5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="stPfCAmUMNRtccNCXlt5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;b&gt;CÂU LỆNH DELETE&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="640" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LẤY BẢN GHI TỪ BẢNG" vertex="1">
+          <mxGeometry height="60" width="120" x="880" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-25" edge="1" parent="1" source="stPfCAmUMNRtccNCXlt5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="stPfCAmUMNRtccNCXlt5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;b&gt;CÂU LỆNH SELECT&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="880" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;span style=&quot;color: rgb(24, 128, 56); font-family: &amp;quot;Times New Roman&amp;quot;, serif; letter-spacing: -0.18px; text-align: justify; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;SELECT Email FROM Customers;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="160" x="880" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div data-lark-html-role=&quot;root&quot;&gt;&lt;span class=&quot;text-only&quot; data-eleid=&quot;61&quot; style=&quot;white-space: pre;&quot;&gt;INSERT INTO products&lt;/span&gt;&lt;span class=&quot;text-only&quot; data-eleid=&quot;60&quot; style=&quot;white-space: pre;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;span class=&quot;text-only&quot; data-eleid=&quot;63&quot; style=&quot;white-space: pre;&quot;&gt;VALUES (NULL, &#39;Bánh tráng&#39;, &#39;Bánh tráng tây ninh&#39;, 20000000, DEFAULT, 5);&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="-30" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div data-lark-html-role=&quot;root&quot;&gt;&lt;div data-lark-html-role=&quot;root&quot;&gt;&lt;span class=&quot;text-only&quot; data-eleid=&quot;69&quot; style=&quot;white-space: pre;&quot;&gt;SET cat_name = &#39;Mỹ phẩm&#39;&lt;/span&gt;&lt;span class=&quot;text-only&quot; data-eleid=&quot;68&quot; style=&quot;white-space: pre;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;span class=&quot;text-only&quot; data-eleid=&quot;71&quot; style=&quot;white-space: pre;&quot;&gt;WHERE cat_id = 2;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="310" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div data-lark-html-role=&quot;root&quot;&gt;&lt;div data-lark-html-role=&quot;root&quot;&gt;&lt;span class=&quot;text-only&quot; data-eleid=&quot;69&quot; style=&quot;white-space: pre;&quot;&gt;SET cat_name = &#39;Mỹ phẩm&#39;&lt;/span&gt;&lt;span class=&quot;text-only&quot; data-eleid=&quot;68&quot; style=&quot;white-space: pre;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;span class=&quot;text-only&quot; data-eleid=&quot;71&quot; style=&quot;white-space: pre;&quot;&gt;WHERE cat_id = 2;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="610" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="stPfCAmUMNRtccNCXlt5-18" edge="1" parent="1" source="stPfCAmUMNRtccNCXlt5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="stPfCAmUMNRtccNCXlt5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
